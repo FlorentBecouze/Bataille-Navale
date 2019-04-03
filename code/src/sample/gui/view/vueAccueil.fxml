@@ -1,0 +1,57 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.Border?>
+
+
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<VBox xmlns:fx="http://javafx.com/fxml" alignment="center" spacing="10" stylesheets="/css/vueAccueil.css" id="main">
+
+    <ImageView>
+        <image>
+            <Image url="/images/logo.png" requestedWidth="300" preserveRatio="true"/>
+        </image>
+        <VBox.margin>
+            <Insets bottom="75"/>
+        </VBox.margin>
+    </ImageView>
+
+
+    <HBox fx:id="ensembleBouton" alignment="CENTER" id="radioBtn">
+        <VBox.margin>
+            <Insets left="200" right="200"/>
+        </VBox.margin>
+        <RadioButton fx:id="boutonFacile" text="Facile" focusTraversable="false">
+            <HBox.margin>
+                <Insets right="50" top="20" bottom="20"/>
+            </HBox.margin>
+        </RadioButton>
+        <RadioButton fx:id="boutonNormal" text="Normal" selected="true" focusTraversable="false">
+            <HBox.margin>
+                <Insets top="20" bottom="20"/>
+            </HBox.margin>
+        </RadioButton>
+        <RadioButton fx:id="boutonDifficile" text="Difficile" focusTraversable="false">
+            <HBox.margin>
+                <Insets left="50" top="20" bottom="20"/>
+            </HBox.margin>
+        </RadioButton>
+    </HBox>
+
+    <Button text="Start" onAction="#start" focusTraversable="false"  minWidth="150"/>
+
+    <Button text="Infos" onAction="#infos" focusTraversable="false"  minWidth="150"/>
+
+    <ListView fx:id="scoresList" maxHeight="200" id="scores">
+        <VBox.margin>
+            <Insets left="50" right="50"/>
+        </VBox.margin>
+    </ListView>
+</VBox>

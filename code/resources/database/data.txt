@@ -1,0 +1,23 @@
+1//BoGosse//24 sec//23
+2//GG//33 sec//24
+3//Clément Torti//42 sec//29
+4//Hervé//60 sec//32
+5//L//80 sec//37
+6//Florent//65 sec//38
+7//Vernon//31 sec//38
+8//Big D//37 sec//38
+9//Florent//33 sec//43
+10//Le Boss//0 sec//45
+11//Clément//142 sec//48
+12//Florent//49 sec//49
+13//Clément//135 sec//50
+14//Jack//139 sec//50
+15//Florent//46 sec//52
+16//Florent//100 sec//55
+17//Florent//72 sec//56
+18//Florent//55 sec//56
+19////73 sec//57
+20//Florent//52 sec//63
+21//L//161 sec//73
+22//Florent//114 sec//76
+23//Noé//1024 sec//128
