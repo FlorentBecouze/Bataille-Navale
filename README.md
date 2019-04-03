@@ -18,7 +18,6 @@ Le jeu est très simple d'utilisation :
 
 
 
-
 <br/>
 Développeurs :
 

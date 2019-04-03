@@ -17,7 +17,8 @@
 17//Florent//72 sec//56
 18//Florent//55 sec//56
 19////73 sec//57
-20//Florent//52 sec//63
-21//L//161 sec//73
-22//Florent//114 sec//76
-23//Noé//1024 sec//128
+20//Florent//61 sec//61
+21//Florent//52 sec//63
+22//L//161 sec//73
+23//Florent//114 sec//76
+24//Noé//1024 sec//128
